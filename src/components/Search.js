@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Search = ({ onSearch }) => {
-  const [input, setInput] = useState(null)
+  const [input, setInput] = useState('')
 
   const handleSubmit = (e) => {
     e.preventDefault();
